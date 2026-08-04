@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Electra Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Electra Therapeutics is a clinical-stage biotechnology company in South San Francisco, California, developing first-in-class antibody therapies directed at signal regulatory proteins (SIRP) for immunological diseases and cancer. Its lead candidate ELA026 (ipsoprubart) is in the pivotal SURPASS Phase 2/3 study for secondary hemophagocytic lymphohistiocytosis (sHLH); a second program, ELA822, targets activated T lymphocytes for immunology and inflammation.
+
+**No public API surface.** As of 2026-08-04, Electra Therapeutics publishes no developer portal, API documentation, SDK, or machine-readable API contract. Probes of `electra-therapeutics.com` for `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/api-docs`, `/graphql`, `/llms.txt` and every `/.well-known/` discovery path (including `agent-card.json` and the legacy `agent.json`) returned HTTP 404, and no `api.`, `developer.`, `docs.`, `portal.` or `app.` subdomain resolves. This profile therefore carries identity, policy and security-posture artifacts only.
+
+- https://electra-therapeutics.com/
 - https://forgeglobal.com/electra-therapeutics_stock/

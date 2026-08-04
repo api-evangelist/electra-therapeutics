@@ -1,0 +1,32 @@
+generated: '2026-08-04'
+method: probed
+source: live GET probes of https://electra-therapeutics.com/.well-known/*
+host: https://electra-therapeutics.com
+summary: >-
+  No /.well-known/ discovery documents are published. Every probed path returns
+  HTTP 404 with an HTML body (the WordPress 404 template), so there is no
+  security.txt, no OIDC/OAuth discovery, no API catalog, no AI plugin manifest
+  and no A2A agent card on this host. Recorded as evidence — absence is a valid
+  probe result, not a gap in the harvest.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+x-evidence:
+  fetched: '2026-08-04'
+  host: electra-therapeutics.com
+  note: >-
+    All responses are HTML 404 pages, not JSON. No document was saved because no
+    path returned 200. No WellKnown / SecurityTxt / AgentCard pointer is wired in
+    apis.yml, because none of these documents exist.

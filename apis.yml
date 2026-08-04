@@ -1,7 +1,17 @@
 aid: electra-therapeutics
 name: Electra Therapeutics
-description: 'Electra Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+image: https://electra-therapeutics.com/wp-content/uploads/2022/01/Electra_Logo_White_wOrange_Dot.png
+description: 'Electra Therapeutics is a clinical-stage biotechnology company in South San Francisco,
+  California, founded in 2018 and pioneering first-in-class antibody therapies directed at signal
+  regulatory proteins (SIRP) for immunological diseases and cancer. Its lead candidate, ELA026
+  (ipsoprubart), is a monoclonal antibody targeting SIRP-alpha/beta1/gamma on myeloid cells and
+  T lymphocytes to selectively deplete the pathological immune cells that drive the cytokine storm in
+  secondary hemophagocytic lymphohistiocytosis (sHLH); it is in the pivotal SURPASS Phase 2/3 study.
+  A second SIRP-targeted program, ELA822, is directed at activated T lymphocytes for immunology and
+  inflammation indications. The company has raised roughly $267M from investors including OrbiMed,
+  Nextech Invest, EQT Life Sciences and Westlake Village BioPartners. Electra publishes a corporate
+  website, pipeline, publications, clinical-trial and news pages, but no public developer program,
+  API documentation, or machine-readable API contract of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/electra-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,14 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Immunology
+- Oncology
+- Clinical Trials
+- Antibody Therapeutics
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,37 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/electra-therapeutics-domain-security.yml
+- type: LLMsTxt
+  url: llms/electra-therapeutics-llms.txt
 - type: Website
+  url: https://electra-therapeutics.com/
+- type: Research
+  url: https://electra-therapeutics.com/publications/
+- type: Team
+  url: https://electra-therapeutics.com/leadership/
+- type: Careers
+  url: https://electra-therapeutics.com/career-opportunities/
+- type: Contact
+  url: https://electra-therapeutics.com/contact/
+- type: News
+  url: https://electra-therapeutics.com/news/
+- type: Blog
+  url: https://electra-therapeutics.com/news/
+- type: BlogFeeds
+  url: https://electra-therapeutics.com/news/feed/
+- type: PrivacyPolicy
+  url: https://electra-therapeutics.com/privacy-policy/
+- type: TermsOfUse
+  url: https://electra-therapeutics.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/electra-tx
+- type: Investors
   url: https://forgeglobal.com/electra-therapeutics_stock/
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+
